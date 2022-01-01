@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Ornatish {
+  position: relative;
+  top: -31px;
+  .boxss{
+    display: flex;
+    .left{
+      width: 50%;
+      margin-top: 2.1%;
+    }
+    .righte {
+      width: 51%;
+    }
+  }
+
+
+}
+
+@media (max-width: 400px){
+  .Ornatish {
+    top: 0px;
+    .boxss{
+      .left{
+        display: none;
+      }
+      .righte {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 400px)and (max-width: 576px){
+  .Ornatish {
+    .boxss{
+      .left{
+        display: none;
+      }
+      .righte {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+  .Ornatish {
+    .boxss{
+      .left{
+      display: none;
+      }
+      .righte {
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+
+

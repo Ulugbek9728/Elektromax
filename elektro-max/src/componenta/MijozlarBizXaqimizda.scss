@@ -1,0 +1,238 @@
+.MijozlarBizXaqimizda {
+  background-color: #F0F2F5;
+
+  .title {
+    margin: 70px 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: #036DB9;
+  }
+
+  .mijozCol {
+    &:hover {
+      .icon {
+        background-color: #81D100;
+      }
+
+      .Name, .Job {
+        color: #036DB9;
+      }
+    }
+
+    .icon {
+      width: 350px;
+      height: 234px;
+      display: inline-block;
+      background-color: white;
+      transition: 0.3s linear;
+      mask: {
+        repeat: no-repeat;
+        size: 100%;
+        position: center center;
+      };
+      -webkit-mask: {
+        repeat: no-repeat;
+        size: 100%;
+        position: center center;
+      };
+    }
+
+    .icon-video {
+      mask-image: url("../img/Union.svg");
+      -webkit-mask-image: url("../img/Union.svg")
+    }
+
+    .video {
+      box-sizing: border-box;
+      padding: 16px 16px 40px 16px;
+
+      iframe {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+      }
+    }
+
+    .Name {
+      margin-top: 12px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+
+    .Job {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .MijozlarBizXaqimizda {
+    height: 1100px;
+
+    .title {
+      margin: 30px 20px;
+      font-size: 30px;
+      line-height: 35px;
+    }
+    .mijozCol{
+      padding: 20px 15px;
+    }
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .MijozlarBizXaqimizda {
+    height: 660px;
+
+    .title {
+      margin: 50px 30px;
+      font-size: 30px;
+      line-height: 35px;
+    }
+
+    .mijozCol {
+      .icon {
+        width: 100%;
+        height: 200px;
+      }
+
+      .video {
+        padding: 4px 10px 38px 10px;
+
+        iframe {
+          margin-top: 26px;
+          height: 125px;
+        }
+      }
+
+      .Name {
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      .Job {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    .icon-video {
+      mask-image: url("../img/Union.svg");
+      -webkit-mask-image: url("../img/Union.svg")
+    }
+
+    .video {
+      box-sizing: border-box;
+      padding: 16px 16px 40px 16px;
+
+      iframe {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+      }
+    }
+
+    .Name {
+      margin-top: 12px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+
+    .Job {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .MijozlarBizXaqimizda {
+    height: 350px;
+
+    .title {
+      margin: 20px 0 0 0;
+      font-size: 40px;
+    }
+
+    .mijozCol {
+      .icon {
+        width: 100%;
+        height: 200px;
+      }
+
+      .video {
+        padding: 14px 14px 38px 14px;
+
+        iframe {
+          margin-top: 26px;
+          height: 105px;
+        }
+      }
+
+      .Name {
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      .Job {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .MijozlarBizXaqimizda {
+    .title {
+    }
+
+    .mijozCol {
+      .icon {
+        width: 100%;
+        height: 234px;
+      }
+
+      .video {
+        padding: 32px 16px 56px 16px;
+
+        iframe {
+
+        }
+      }
+
+      .Name {
+        margin-top: 12px;
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      .Job {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+}

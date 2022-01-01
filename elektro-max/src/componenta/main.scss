@@ -1,0 +1,244 @@
+.maine {
+  height: 600px;
+  background-image: url("../img/Group.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  .row {
+    .container {
+      width: 1109px;
+      .Left {
+        .title {
+          margin-top: 100px;
+          font-weight: 700;
+          width: 540px;
+          font-size: 50px;
+          line-height: 61px;
+          color: #FFFFFF;
+        }
+
+        .col-md-4 {
+          margin-top: 48px;
+
+          .text {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #FFFFFF;
+            width: 170px;
+            margin-top: 16px;
+          }
+
+          .textComit {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+            margin-top: 8px;
+          }
+        }
+      }
+
+      .Righte {
+        margin-top: 100px;
+        padding-left: 59px;
+      }
+
+    }
+  }
+}
+
+
+@media (max-width: 576px){
+  .maine {
+    height: 230px;
+    .row {
+      .container {
+        width: 540px;
+        .Left {
+          .title {
+            margin-top: 40px;
+            width: 230px;
+            font-size: 18px;
+            line-height: 20px;
+          }
+
+          .col-md-4 {
+            width: 60px;
+            margin-top: 20px;
+            img{
+              width: 15px;
+            }
+            .text {
+              font-size: 5px;
+              line-height: 7px;
+              width: 60px;
+              margin-top: 5px;
+            }
+
+            .textComit {
+              font-size: 4px;
+              line-height: 5px;
+              margin-top: 1px;
+            }
+          }
+        }
+
+        .Righte {
+          margin-top: 50px;
+          padding-left: 20px;
+          img{
+            width: 150px;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+  .maine {
+    height: 300px;
+    .row {
+      .container {
+        width: 540px;
+        .Left {
+          .title {
+            margin-top: 60px;
+            width: 250px;
+            font-size: 20px;
+            line-height: 25px;
+          }
+
+          .col-md-4 {
+            width: 90px;
+            margin-top: 20px;
+            img{
+              width: 20px;
+              margin-left: 15px;
+            }
+            .text {
+              font-size: 8px;
+              line-height: 10px;
+              width: 85px;
+              margin-top: 14px;
+            }
+
+            .textComit {
+              font-size: 6px;
+              line-height: 8px;
+              margin-top: 3px;
+            }
+          }
+        }
+
+        .Righte {
+          margin-top: 50px;
+          padding-left: 20px;
+          img{
+            width: 200px;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .maine {
+    height: 380px;
+    .row {
+      .container {
+        width: 720px;
+        .Left {
+          .title {
+            margin-top: 70px;
+            width: 400px;
+            font-size: 30px;
+            line-height: 35px;
+          }
+
+          .col-md-4 {
+            margin-top: 30px;
+            img{
+              width: 25px;
+              margin-left: 15px;
+            }
+            .text {
+              font-size: 10px;
+              line-height: 13px;
+              width: 100px;
+              margin-top: 14px;
+            }
+
+            .textComit {
+              font-size: 8px;
+              line-height: 8px;
+              margin-top: 5px;
+            }
+          }
+        }
+
+        .Righte {
+          margin-top: 60px;
+          padding-left: 20px;
+          img{
+            width: 280px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .maine {
+    height: 500px;
+    .row {
+      .container {
+        width: 960px;
+        .Left {
+          .title {
+            width: 500px;
+            font-size: 40px;
+            line-height: 50px;
+          }
+
+          .col-md-4 {
+            img{
+              width: 40px;
+              margin-left: 15px;
+            }
+            .text {
+              font-size: 13px;
+              line-height: 15px;
+              width: 130px;
+              margin-top: 14px;
+            }
+
+            .textComit {
+              font-size: 10px;
+              line-height: 14px;
+              margin-top: 8px;
+            }
+          }
+        }
+
+        .Righte {
+          margin-top: 70px;
+          padding-left: 39px;
+          img{
+            width: 340px;
+          }
+        }
+
+      }
+    }
+  }
+
+}

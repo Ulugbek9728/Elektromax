@@ -1,0 +1,383 @@
+%allButton {
+  width: 278px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  border: none;
+  background: linear-gradient(90deg, #81D100 0%, #71B800 100%);
+  border-radius: 35px;
+  line-height: 24px;
+  transition: 0.2s linear;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 0px 10px 15px rgba(130, 214, 0, 0.52);
+    transition: 0.2s linear;
+  }
+}
+
+.Mutaxasislar {
+  .row {
+    .title {
+      font-weight: 900;
+      font-size: 45px;
+      line-height: 55px;
+      color: #036DB9;
+      margin-top: 100px;
+    }
+
+    .modal {
+      margin-top: 100px;
+
+      .Close {
+        position: relative;
+        left: 545px;
+        bottom: 10px;
+        background-image: url("../img/close.png");
+      }
+
+      .modalBox {
+        width: 540px;
+        height: 487px;
+        padding: 50px 90px;
+
+        .modalTitle {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 31px;
+          line-height: 39px;
+          color: #036DB9;
+        }
+
+        .Malumot {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #000000;
+          margin: 24px 0 8px 0;
+        }
+
+        .Input {
+          height: 60px;
+        }
+
+        .Button1 {
+          margin: auto;
+          @extend %allButton;
+
+          img {
+            margin-left: 16px;
+          }
+        }
+      }
+    }
+
+    .boxNav {
+      margin-top: 50px;
+
+      .left {
+        margin-right: 40px;
+      }
+
+      .text {
+        margin-top: 16px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+      }
+
+    }
+
+    .Button {
+      width: 382px;
+      height: 70px;
+      font-size: 20px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      border: none;
+      background: linear-gradient(90deg, #81D100 0%, #71B800 100%);
+      border-radius: 35px;
+      line-height: 24px;
+      transition: 0.2s linear;
+      margin-top: 50px;
+
+      &:hover {
+        text-decoration: none;
+        box-shadow: 0px 10px 15px rgba(130, 214, 0, 0.52);
+        transition: 0.2s linear;
+      }
+    }
+
+    .elektrik {
+      margin-top: 64px;
+    }
+
+  }
+}
+
+
+@media (max-width: 400px) {
+  .Mutaxasislar {
+    .row {
+      .title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 20px;
+      }
+
+      .boxNav {
+        margin-top: 30px;
+
+        .left {
+          margin-left: 10px;
+          img {
+            width: 20px;
+          }
+        }
+
+        .righte {
+          margin-right: 300px;
+          img {
+            width: 31px;
+          }
+        }
+
+        .text {
+          width: 80px;
+          font-size: 6px;
+          line-height: 7px;
+        }
+
+      }
+
+      .Button {
+        width: 40%;
+        height: 25px;
+        font-size: 7px;
+        line-height: 7px;
+        margin-top: 40px;
+
+        img {
+          width: 12%;
+        }
+      }
+
+      .elektrik {
+       display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 400px) and (max-width: 576px) {
+  .Mutaxasislar {
+    margin-bottom: 60px;
+    .row {
+      .title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 30px;
+      }
+
+      .boxNav {
+        margin-top: 30px;
+
+        .left {
+          img {
+            width: 30px;
+          }
+        }
+
+        .righte {
+          img {
+            width: 42px;
+          }
+        }
+
+        .text {
+          font-size: 10px;
+          line-height: 11px;
+        }
+
+      }
+
+      .Button {
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 10px;
+        margin-top: 10px;
+
+        img {
+          width: 10%;
+        }
+      }
+
+      .elektrik {
+        display: none;
+      }
+
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .Mutaxasislar {
+    margin-bottom: 50px;
+    .row {
+        .title {
+          font-size: 25px;
+          line-height: 30px;
+          margin-top: 30px;
+        }
+
+        .boxNav {
+          margin-top: 30px;
+
+          .left {
+            img {
+              width: 30px;
+            }
+          }
+
+          .righte {
+            img {
+              width: 42px;
+            }
+          }
+
+          .text {
+            font-size: 10px;
+            line-height: 11px;
+          }
+
+        }
+
+        .Button {
+          width: 200px;
+          height: 40px;
+          font-size: 12px;
+          line-height: 12px;
+          margin-top: 40px;
+
+          img {
+            width: 12%;
+          }
+        }
+
+        .elektrik {
+         display: none;
+        }
+
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .Mutaxasislar {
+    width: 696px;
+
+    .row {
+        .title {
+          font-size: 40px;
+          line-height: 44px;
+          margin-top: 60px;
+        }
+
+        .boxNav {
+          .left {
+            img {
+              width: 40px;
+            }
+          }
+
+          .righte {
+            img {
+              width: 58px;
+            }
+          }
+
+          .text {
+            margin-top: 16px;
+            font-size: 13px;
+            line-height: 15px;
+          }
+
+        }
+
+        .Button {
+          width: 280px;
+          height: 60px;
+          font-size: 18px;
+          line-height: 20px;
+          margin-top: 50px;
+        }
+
+        .elektrik {
+          width: 118%;
+          margin-top: 64px;
+        }
+
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .Mutaxasislar {
+    width: 696px;
+
+    .row {
+      .title {
+        font-size: 40px;
+        line-height: 44px;
+        margin-top: 60px;
+      }
+
+      .boxNav {
+        margin-top: 50px!important;
+        .left {
+          img {
+            width: 40px;
+          }
+        }
+
+        .righte {
+          img {
+            width: 58px;
+          }
+        }
+
+        .text {
+          margin-top: 16px;
+          font-size: 13px;
+          line-height: 15px;
+        }
+
+      }
+
+      .Button {
+        width: 280px;
+        height: 60px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 50px;
+      }
+
+      .elektrik {
+        width: 118%;
+        margin-top: 64px;
+      }
+
+    }
+  }
+}
+

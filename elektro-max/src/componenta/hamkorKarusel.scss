@@ -1,0 +1,162 @@
+.hamkorlar {
+  height: 365px;
+  .title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: #036DB9;
+    margin: 70px 0 50px 0;
+  }
+  .card{
+    margin: 0 15px;
+  }
+  .gZZBOx {
+    display: none !important;
+  }
+  .jRFJkP {
+    background-color: white;
+    color: #939AA3;
+    z-index: 100;
+
+    &:focus {
+      background-color: #81D100 !important;
+      color: white !important;
+    }
+
+    &:hover {
+      background-color: #81D100 !important;
+      color: white;
+    }
+  }
+
+  .cNNJIt {
+    background-color: white;
+    color: #939AA3;
+    z-index: 100;
+
+    &:hover {
+      background-color: #81D100 !important;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 576px){
+  .hamkorlar {
+    height: 250px;
+    .title{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 35px;
+      margin: 30px 0 40px 0;
+    }
+    .card{
+      margin: 0 15px;
+    }
+    .jRFJkP {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      line-height: 40px;
+    }
+
+    .cNNJIt {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      line-height: 40px;
+    }
+
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+  .hamkorlar {
+    height: 330px;
+    .title{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 35px;
+      margin: 30px 0 40px 0;
+    }
+    .card{
+      margin: 0 15px;
+    }
+    .jRFJkP {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      line-height: 40px;
+    }
+
+    .cNNJIt {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      line-height: 40px;
+    }
+
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .hamkorlar {
+    height: 330px;
+    .title{
+      font-size: 38px;
+      line-height: 40px;
+      margin: 20px 0 40px 0;
+    }
+    .card{
+      margin: 0 15px;
+    }
+    .jRFJkP {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      line-height: 40px;
+    }
+
+    .cNNJIt {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      line-height: 40px;
+    }
+
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .hamkorlar {
+    height: 330px;
+    .title{
+
+      font-size: 40px;
+      line-height: 45px;
+      margin: 70px 0 50px 0;
+    }
+    .card{
+      margin: 0 15px;
+    }
+    .jRFJkP {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      line-height: 40px;
+    }
+
+    .cNNJIt {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      line-height: 40px;
+    }
+
+  }
+
+}

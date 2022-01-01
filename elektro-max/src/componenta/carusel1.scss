@@ -1,0 +1,446 @@
+.karusel {
+  position: relative;
+
+  .row {
+    display: flex;
+
+    .carusel {
+      margin-bottom: 70px;
+
+      .card {
+        overflow: hidden;
+        border-radius: 5px;
+        margin: 0 15px;
+        box-sizing: border-box;
+
+      }
+
+      .gZZBOx {
+        display: none !important;
+      }
+
+      .jRFJkP {
+        background-color: white;
+        color: #939AA3;
+        z-index: 100;
+
+        &:focus {
+          background-color: #81D100 !important;
+          color: white !important;
+        }
+
+        &:hover {
+          background-color: #81D100 !important;
+          color: white;
+        }
+      }
+
+      .cNNJIt {
+        background-color: white;
+        color: #939AA3;
+        z-index: 100;
+
+        &:hover {
+          background-color: #81D100 !important;
+          color: white;
+        }
+      }
+
+      .rec-arrow-left {
+        position: absolute;
+        bottom: 80px;
+        left: 280px;
+      }
+
+      .rec-arrow-right {
+        position: absolute;
+        bottom: 80px;
+        left: 350px;
+      }
+    }
+
+    .oposity {
+      position: absolute;
+      top: -10px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        height: 100%;
+      }
+
+      .bir {
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 34%;
+
+        .bizning {
+          height: 100%;
+          width: 52%;
+          background-color: white;
+          margin-left: 50%;
+
+          p {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 45px;
+            color: #036DB9;
+            padding: 80px 0 0 20px;
+          }
+        }
+      }
+
+      .ikki {
+        width: 18%;
+        background-color: rgba(255, 255, 255, 0.7);
+
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .karusel {
+    padding-top: 70px;
+
+    .row {
+      .carusel {
+        margin-bottom: 0;
+
+        .card {
+          margin: 0 7px;
+        }
+
+        .jRFJkP {
+          width: 30px;
+          height: 30px;
+          min-width: 30px;
+          line-height: 30px;
+          font-size: 20px;
+        }
+
+        .cNNJIt {
+          width: 30px;
+          height: 30px;
+          min-width: 30px;
+          line-height: 30px;
+        }
+
+
+        .rec-arrow-left {
+          bottom: 30%;
+          left: 0;
+        }
+
+        .rec-arrow-right {
+          bottom: 30%;
+          left: 94%;
+        }
+      }
+
+      .oposity {
+        top: -10px;
+        width: 100%;
+        height: 100%;
+
+        .bir {
+          width: 0%;
+
+          .bizning {
+            position: absolute;
+            top: 0;
+            height: 50px;
+            width: 100%;
+            margin: 0;
+
+            p {
+              text-align: center;
+              font-size: 30px;
+              line-height: 33px;
+              padding: 0;
+            }
+          }
+        }
+
+        .ikki {
+          width: 0%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .karusel {
+    padding-top: 70px;
+
+    .row {
+      .carusel {
+        margin-bottom: 0;
+
+        .card {
+          margin: 0 7px;
+        }
+
+        .jRFJkP {
+          width: 40px;
+          height: 40px;
+          min-width: 40px;
+          line-height: 40px;
+        }
+
+        .cNNJIt {
+          width: 40px;
+          height: 40px;
+          min-width: 40px;
+          line-height: 40px;
+        }
+
+        .rec-arrow-left {
+          bottom: 30%;
+          left: 0;
+        }
+
+        .rec-arrow-right {
+          bottom: 30%;
+          left: 94%;
+        }
+      }
+
+      .oposity {
+        top: -10px;
+        width: 100%;
+        height: 100%;
+
+        .bir {
+          width: 0%;
+
+          .bizning {
+            position: absolute;
+            top: 0;
+            height: 50px;
+            width: 100%;
+            margin: 0;
+
+            p {
+              text-align: center;
+              font-size: 30px;
+              line-height: 33px;
+              padding: 0;
+            }
+          }
+        }
+
+        .ikki {
+          width: 0%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 811px) {
+  .karusel {
+    padding-top: 70px;
+
+    .row {
+      .carusel {
+        margin-bottom: 0;
+
+        .card {
+          margin: 0 7px;
+        }
+
+        .jRFJkP {
+          width: 40px;
+          height: 40px;
+          min-width: 40px;
+          line-height: 40px;
+        }
+
+        .cNNJIt {
+          width: 40px;
+          height: 40px;
+          min-width: 40px;
+          line-height: 40px;
+        }
+
+        .rec-arrow-left {
+          bottom: 30%;
+          left: 0;
+        }
+
+        .rec-arrow-right {
+          bottom: 30%;
+          left: 95%;
+        }
+      }
+
+      .oposity {
+        top: -10px;
+        width: 100%;
+        height: 100%;
+
+        .bir {
+          width: 0%;
+
+          .bizning {
+            position: absolute;
+            top: 0;
+            height: 50px;
+            width: 100%;
+            margin: 0;
+
+            p {
+              text-align: center;
+              font-size: 30px;
+              line-height: 33px;
+              padding: 0;
+            }
+          }
+        }
+
+        .ikki {
+          width: 0%;
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 811px) and (max-width: 992px) {
+  .karusel {
+    .row {
+      .carusel {
+        margin-bottom: 70px;
+
+        .card {
+          margin: 0 7px;
+        }
+
+        .jRFJkP {
+          width: 40px;
+          height: 40px;
+          min-width: 40px;
+          line-height: 40px;
+        }
+
+        .cNNJIt {
+          width: 40px;
+          height: 40px;
+          min-width: 40px;
+          line-height: 40px;
+        }
+
+        .rec-arrow-left {
+          bottom: 80px;
+          left: 22%;
+        }
+
+        .rec-arrow-right {
+          bottom: 80px;
+          left: 27%;
+        }
+      }
+
+      .oposity {
+        top: -10px;
+        width: 100%;
+        height: 100%;
+
+        .bir {
+          width: 40%;
+
+          .bizning {
+            height: 100%;
+            width: 52%;
+            margin-left: 50%;
+
+            p {
+              font-size: 30px;
+              line-height: 33px;
+              padding: 40px 0 0 20px;
+            }
+          }
+        }
+
+        .ikki {
+          width: 20%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1243px) {
+  .karusel {
+    .row {
+      .carusel {
+        margin-bottom: 70px;
+
+        .card {
+          margin: 0 15px;
+        }
+
+        .jRFJkP {
+          width: 40px;
+          height: 40px;
+          min-width: 40px;
+          line-height: 40px;
+        }
+
+        .cNNJIt {
+          width: 40px;
+          height: 40px;
+          min-width: 40px;
+          line-height: 40px;
+        }
+
+        .rec-arrow-left {
+          bottom: 80px;
+          left: 280px;
+        }
+
+        .rec-arrow-right {
+          bottom: 80px;
+          left: 330px;
+        }
+      }
+
+      .oposity {
+        top: -10px;
+        width: 100%;
+        height: 100%;
+
+        div {
+          height: 100%;
+        }
+
+        .bir {
+          width: 41%;
+
+          .bizning {
+            height: 100%;
+            width: 50%;
+            margin-left: 50%;
+
+
+            p {
+              font-size: 35px;
+              line-height: 40px;
+              padding: 70px 0 0 20px;
+            }
+          }
+        }
+
+        .ikki {
+          width: 20%;
+          background-color: rgba(255, 255, 255, 0.7);
+
+        }
+      }
+    }
+  }
+}

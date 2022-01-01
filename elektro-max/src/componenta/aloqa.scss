@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.aloqa {
+  .aloqaCol {
+    box-sizing: border-box;
+
+    .carta {
+      width: 101.7%;
+      height: 550px;
+
+      Map {
+        width: 100%;
+      }
+    }
+  }
+
+  .righte {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 93.9%;
+    padding: 148px 50px;
+    .boxNav {
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #81D100;
+        margin: 0px 0 0 14px;
+      }
+    }
+
+    p {
+      margin-top: 12px;
+      margin-left: 37px;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+    }
+
+    .tarmoq {
+      margin-top: 12px;
+      width: 164px;
+      margin-left: 37px;
+      justify-content: space-between;
+
+      .telegram {
+        cursor: pointer;
+
+        &:hover {
+          .icon {
+            background-color: #81D100;
+          }
+        }
+      }
+
+      .fecbook {
+        cursor: pointer;
+
+        &:hover {
+          .icon {
+            background-color: #81D100;
+          }
+        }
+      }
+
+      .instagram {
+        cursor: pointer;
+
+        &:hover {
+          .icon {
+            background-color: #81D100;
+          }
+        }
+      }
+
+      .youtube {
+        cursor: pointer;
+
+        &:hover {
+          .icon {
+            background-color: #81D100;
+          }
+        }
+      }
+
+      .icon {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        background-color: white;
+        transition: 0.4s linear;
+        mask: {
+          repeat: no-repeat;
+          size: 90%;
+          position: center center;
+        };
+        -webkit-mask: {
+          repeat: no-repeat;
+          size: 90%;
+          position: center center;
+        };
+      }
+
+      .icon-telegram {
+        mask-image: url("../img/telegram2.svg");
+        -webkit-mask-image: url("../img/telegram2.svg")
+
+      }
+
+      .icon-fecbook {
+        mask-image: url("../img/fesbook.svg");
+        -webkit-mask-image: url("../img/fesbook.svg")
+      }
+
+      .icon-instagram {
+        mask-image: url("../img/instogram.svg");
+        -webkit-mask-image: url("../img/instogram.svg")
+      }
+
+      .icon-youtube {
+        mask-image: url("../img/totube.svg");
+        -webkit-mask-image: url("../img/totube.svg")
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .aloqa {
+    .aloqaCol {
+      .carta {
+        width: 101.7%;
+        height: 300px;
+      }
+    }
+
+    .righte {
+      padding: 70px 50px;
+      .boxNav {
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #81D100;
+          margin: 0px 0 0 14px;
+        }
+      }
+
+      p {
+        margin-top: 12px;
+        margin-left: 37px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+      }
+
+      .tarmoq {
+        margin-top: 12px;
+        width: 164px;
+        margin-left: 37px;
+        justify-content: space-between;
+
+        .telegram {
+          cursor: pointer;
+
+          &:hover {
+            .icon {
+              background-color: #81D100;
+            }
+          }
+        }
+
+        .fecbook {
+          cursor: pointer;
+
+          &:hover {
+            .icon {
+              background-color: #81D100;
+            }
+          }
+        }
+
+        .instagram {
+          cursor: pointer;
+
+          &:hover {
+            .icon {
+              background-color: #81D100;
+            }
+          }
+        }
+
+        .youtube {
+          cursor: pointer;
+
+          &:hover {
+            .icon {
+              background-color: #81D100;
+            }
+          }
+        }
+
+        .icon {
+          width: 32px;
+          height: 32px;
+          display: inline-block;
+          background-color: white;
+          transition: 0.4s linear;
+          mask: {
+            repeat: no-repeat;
+            size: 90%;
+            position: center center;
+          };
+          -webkit-mask: {
+            repeat: no-repeat;
+            size: 90%;
+            position: center center;
+          };
+        }
+
+        .icon-telegram {
+          mask-image: url("../img/telegram2.svg");
+          -webkit-mask-image: url("../img/telegram2.svg")
+
+        }
+
+        .icon-fecbook {
+          mask-image: url("../img/fesbook.svg");
+          -webkit-mask-image: url("../img/fesbook.svg")
+        }
+
+        .icon-instagram {
+          mask-image: url("../img/instogram.svg");
+          -webkit-mask-image: url("../img/instogram.svg")
+        }
+
+        .icon-youtube {
+          mask-image: url("../img/totube.svg");
+          -webkit-mask-image: url("../img/totube.svg")
+        }
+      }
+    }
+
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .aloqa {
+    .aloqaCol {
+      .carta {
+        width: 101.7%;
+        height: 300px;
+      }
+    }
+
+    .righte {
+      padding: 90px 50px;
+      .boxNav {
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #81D100;
+          margin: 0px 0 0 14px;
+        }
+      }
+
+      p {
+        margin-top: 12px;
+        margin-left: 37px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+      }
+
+      .tarmoq {
+        margin-top: 12px;
+        width: 164px;
+        margin-left: 37px;
+        justify-content: space-between;
+
+        .telegram {
+          cursor: pointer;
+
+          &:hover {
+            .icon {
+              background-color: #81D100;
+            }
+          }
+        }
+
+        .fecbook {
+          cursor: pointer;
+
+          &:hover {
+            .icon {
+              background-color: #81D100;
+            }
+          }
+        }
+
+        .instagram {
+          cursor: pointer;
+
+          &:hover {
+            .icon {
+              background-color: #81D100;
+            }
+          }
+        }
+
+        .youtube {
+          cursor: pointer;
+
+          &:hover {
+            .icon {
+              background-color: #81D100;
+            }
+          }
+        }
+
+        .icon {
+          width: 32px;
+          height: 32px;
+          display: inline-block;
+          background-color: white;
+          transition: 0.4s linear;
+          mask: {
+            repeat: no-repeat;
+            size: 90%;
+            position: center center;
+          };
+          -webkit-mask: {
+            repeat: no-repeat;
+            size: 90%;
+            position: center center;
+          };
+        }
+
+        .icon-telegram {
+          mask-image: url("../img/telegram2.svg");
+          -webkit-mask-image: url("../img/telegram2.svg")
+
+        }
+
+        .icon-fecbook {
+          mask-image: url("../img/fesbook.svg");
+          -webkit-mask-image: url("../img/fesbook.svg")
+        }
+
+        .icon-instagram {
+          mask-image: url("../img/instogram.svg");
+          -webkit-mask-image: url("../img/instogram.svg")
+        }
+
+        .icon-youtube {
+          mask-image: url("../img/totube.svg");
+          -webkit-mask-image: url("../img/totube.svg")
+        }
+      }
+    }
+
+  }
+
+}

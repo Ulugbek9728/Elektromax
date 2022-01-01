@@ -1,0 +1,211 @@
+.Mijozlar{
+  height: 1086px;
+  box-sizing: border-box;
+  background-color: #F0F2F5;
+  padding-top: 70px;
+  .title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #036DB9;
+    margin-bottom: 50px;
+  }
+  .container{
+    padding-bottom: 70px;
+    .coll-4{
+      padding: 0 35px;
+      box-sizing: border-box;
+      margin-top: 30px;
+      .backImg{
+        position: relative;
+        width: 240px;
+        height: 240px;
+        z-index: 0;
+      }
+      .imgBlur{
+        width: 260px;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(180deg,
+                rgba(255, 255, 255, 0.65) 0%,
+                rgba(255, 255, 255, 0) 100%,
+                rgba(255, 255, 255, 0) 100%);
+        backdrop-filter: blur(42px);
+        border-radius: 50%;
+        z-index: 1;
+        position: absolute;
+        top: 20px;
+        left: 55px;
+
+        img{
+          width: 70%;
+        }
+      }
+      .titleCArd{
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 24px;
+        color: #036DB9;
+        margin-top: 56px;
+      }
+      .textCArd{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 576px){
+  .Mijozlar{
+    height:850px;
+    padding-top: 20px;
+
+    .title{
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 0;
+    }
+    .container{
+      width: 100%;
+      .coll-4{
+        .backImg{
+          margin-left: 10px;
+          width: 90px;
+          height: 90px;
+        }
+        .imgBlur{
+          margin-left: 10px;
+          width: 100px;
+          height: 100px;
+          top: 13px;
+          left: 45px;
+        }
+        .titleCArd{
+          font-size: 11px;
+          line-height: 15px;
+          margin-top: 46px;
+        }
+        .textCArd{
+          font-size: 10px;
+          line-height: 12px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+  .Mijozlar{
+    height:920px;
+    padding-top: 50px;
+
+    .title{
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 0;
+    }
+    .container{
+      width: 100%;
+      .coll-4{
+        .backImg{
+          margin-left: 30px;
+          width: 120px;
+          height: 120px;
+        }
+        .imgBlur{
+          margin-left: 30px;
+          width: 140px;
+          height: 140px;
+          top: 13px;
+          left: 45px;
+        }
+        .titleCArd{
+          font-size: 11px;
+          line-height: 15px;
+          margin-top: 46px;
+        }
+        .textCArd{
+          font-size: 10px;
+          line-height: 12px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .Mijozlar{
+    height:920px;
+    .title{
+      font-size: 40px;
+      line-height: 44px;
+    }
+    .container{
+      width: 100%;
+      .coll-4{
+        .backImg{
+          width: 180px;
+          height: 180px;
+        }
+        .imgBlur{
+          width: 190px;
+          height: 190px;
+          top: 18px;
+          left: 50px;
+        }
+        .titleCArd{
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .textCArd{
+          font-size: 13px;
+          line-height: 15px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .Mijozlar{
+    height: 1086px;
+    .title{
+      font-size: 40px;
+      line-height: 44px;
+      margin-bottom: 40px;
+    }
+    .container{
+      .coll-4{
+        .backImg{
+          width: 230px;
+          height: 230px;
+        }
+        .imgBlur{
+          width: 250px;
+          height: 250px;
+        }
+        .titleCArd{
+          font-size: 18px;
+          line-height: 24px;
+        }
+        .textCArd{
+          font-size: 16px;
+          line-height: 19px;
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+}
